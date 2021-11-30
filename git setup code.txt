@@ -1,0 +1,7 @@
+echo "# test" >> README.md
+git init
+git remote add origin https://github.com/RazuPk/test.git
+git branch -M main
+git add (file=new(.),update(--all))
+git commit -m "first commit"
+git push -u origin main
